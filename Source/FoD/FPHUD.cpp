@@ -8,6 +8,7 @@ AFPHUD::AFPHUD(const FObjectInitializer& ObjectInitializer)
 {
 	// Set the crosshair texture
 	static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(TEXT("Texture2D'/Game/crosshair.crosshair'"));
+	
 	CrosshairTex = CrosshairTexObj.Object;
 }
 
